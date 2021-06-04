@@ -1,6 +1,7 @@
 pipeline {
   environment {
-     containerName = 'hello'
+    imageName = 'hello'
+    containerName = 'hello'
  }
  agent {
    label 'hello'
